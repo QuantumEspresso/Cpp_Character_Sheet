@@ -1,0 +1,1449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CharSheet</class>
+ <widget class="QMainWindow" name="CharSheet">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>894</width>
+    <height>704</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>CharSheet</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>891</width>
+      <height>491</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Główne Dane</string>
+     </attribute>
+     <widget class="QLabel" name="pic">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>140</y>
+        <width>421</width>
+        <height>301</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>20</y>
+        <width>291</width>
+        <height>61</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>290</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Rozmiar</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>50</y>
+        <width>61</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Rasa</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>200</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Wzrost</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>160</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Waga</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Wieght">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>180</y>
+        <width>61</width>
+        <height>21</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>90</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Języki</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>330</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Charakter</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>0</y>
+        <width>91</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Opis postaci</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>350</y>
+        <width>191</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>4</number>
+      </property>
+      <item>
+       <property name="text">
+        <string>praworządny dobry</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>neutralny dobry</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>chaotyczny dobry</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>praworządny neutralny</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>prawdziwie neutralny</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>chaotyczny neutralny</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>praworządny zły</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>neutralny zły</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>chaotyczny zły</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>130</y>
+        <width>61</width>
+        <height>21</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Religion">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>420</y>
+        <width>111</width>
+        <height>21</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Size">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>310</y>
+        <width>81</width>
+        <height>21</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="CharName">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>191</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>0</y>
+        <width>111</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Nazwa Postaci</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>530</x>
+        <y>100</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Wygląd</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>240</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Płeć</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>610</x>
+        <y>90</y>
+        <width>31</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>110</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Wiek</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>400</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Wiara</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Height">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>220</y>
+        <width>61</width>
+        <height>21</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="listWidget">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>120</y>
+        <width>141</width>
+        <height>301</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_7">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>191</width>
+        <height>21</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_8">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>260</y>
+        <width>121</width>
+        <height>21</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Statystyki</string>
+     </attribute>
+     <widget class="QTableWidget" name="tableWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>30</y>
+        <width>301</width>
+        <height>211</height>
+       </rect>
+      </property>
+      <row>
+       <property name="text">
+        <string>Siła</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Zręczność</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Budowa</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Intelekt</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Roztropność</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Charyzma</string>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>Wartość</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Modyfikator</string>
+       </property>
+      </column>
+     </widget>
+     <widget class="QLabel" name="label_13">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Atrybuty</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_14">
+      <property name="geometry">
+       <rect>
+        <x>590</x>
+        <y>0</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Szybkość</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_2">
+      <property name="geometry">
+       <rect>
+        <x>592</x>
+        <y>20</y>
+        <width>71</width>
+        <height>21</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_15">
+      <property name="geometry">
+       <rect>
+        <x>590</x>
+        <y>40</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Inicjatywa</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_3">
+      <property name="geometry">
+       <rect>
+        <x>592</x>
+        <y>60</y>
+        <width>71</width>
+        <height>21</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_16">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>0</y>
+        <width>101</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Poziom postaci</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_4">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>20</y>
+        <width>41</width>
+        <height>21</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_17">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>40</y>
+        <width>67</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>PD</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_5">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>60</y>
+        <width>121</width>
+        <height>21</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_18">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>250</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Ataki</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_19">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>250</y>
+        <width>41</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Unik:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_6">
+      <property name="geometry">
+       <rect>
+        <x>182</x>
+        <y>250</y>
+        <width>51</width>
+        <height>21</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="tableWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>270</y>
+        <width>641</width>
+        <height>201</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_8">
+      <property name="geometry">
+       <rect>
+        <x>612</x>
+        <y>162</y>
+        <width>37</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Rzuć</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_9">
+      <property name="geometry">
+       <rect>
+        <x>612</x>
+        <y>190</y>
+        <width>37</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Rzuć</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_10">
+      <property name="geometry">
+       <rect>
+        <x>612</x>
+        <y>218</y>
+        <width>37</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Rzuć</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="geometry">
+       <rect>
+        <x>301</x>
+        <y>61</y>
+        <width>39</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Rzuć</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="geometry">
+       <rect>
+        <x>301</x>
+        <y>91</y>
+        <width>39</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Rzuć</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="geometry">
+       <rect>
+        <x>301</x>
+        <y>120</y>
+        <width>39</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Rzuć</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="geometry">
+       <rect>
+        <x>301</x>
+        <y>149</y>
+        <width>39</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Rzuć</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="geometry">
+       <rect>
+        <x>301</x>
+        <y>178</y>
+        <width>39</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Rzuć</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_7">
+      <property name="geometry">
+       <rect>
+        <x>301</x>
+        <y>207</y>
+        <width>39</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Rzuć</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_20">
+      <property name="geometry">
+       <rect>
+        <x>431</x>
+        <y>111</y>
+        <width>100</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Rzuty obronne</string>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="tableWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>431</x>
+        <y>134</y>
+        <width>179</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <row>
+       <property name="text">
+        <string>Wytrwałość</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Refleks</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Wola</string>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>Wartość</string>
+       </property>
+      </column>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_4">
+     <attribute name="title">
+      <string>Zdolności</string>
+     </attribute>
+     <widget class="QLabel" name="label_21">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Stamina</string>
+      </property>
+     </widget>
+     <widget class="QProgressBar" name="progressBar">
+      <property name="geometry">
+       <rect>
+        <x>67</x>
+        <y>0</y>
+        <width>371</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="value">
+       <number>24</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_22">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>0</y>
+        <width>41</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Mana</string>
+      </property>
+     </widget>
+     <widget class="QProgressBar" name="progressBar_2">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>0</y>
+        <width>361</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="value">
+       <number>24</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_23">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>30</y>
+        <width>91</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Umiejętności</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_24">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>30</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Atuty</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_25">
+      <property name="geometry">
+       <rect>
+        <x>720</x>
+        <y>30</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Strategie</string>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="tableWidget_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>50</y>
+        <width>431</width>
+        <height>401</height>
+       </rect>
+      </property>
+      <row>
+       <property name="text">
+        <string>Alchemia</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Blefowanie</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Cichy chód</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Czarostwo</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Czytanie z warg</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Dyplomacja</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Fałszerstwo</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Jeździectwo</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Koncentracja</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Kradzież</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Leczenie</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Nasłuchiwanie</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Odcyfrowywanie zapisów</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Otwieranie zamków</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Pływanie</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Post. ze zwierzętami</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Półsłówka</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Profesja</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Przebieranie</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Przeszukiwanie</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Równowaga</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Rzemiosło</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Skakanie</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Stosowanie liny</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Stosowanie mag. rzeczy</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Szacowanie</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Tajniki dziczy</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Ukrywanie się</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Unieszkodliwianie urządzeń</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Upadanie</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Wiedza (tajemna)</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Wiedza (natura)</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Wiedza (miejscowa)</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Wiedza (religia)</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Wiedza (historia)</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Wróżenie</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Wspinaczka</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Wyczucie kierunku</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Wyczucie pobudek</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Występy</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Wyzwalanie się</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Zastraszanie</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Zauważanie</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Zbieranie informacji</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Zwierzęca empatia</string>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>atr.</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Watrość</string>
+       </property>
+      </column>
+      <item row="0" column="0">
+       <property name="text">
+        <string>int</string>
+       </property>
+      </item>
+      <item row="1" column="0">
+       <property name="text">
+        <string>cha</string>
+       </property>
+      </item>
+      <item row="2" column="0">
+       <property name="text">
+        <string>zr</string>
+       </property>
+      </item>
+      <item row="3" column="0">
+       <property name="text">
+        <string>rzt</string>
+       </property>
+      </item>
+      <item row="4" column="0">
+       <property name="text">
+        <string>int</string>
+       </property>
+      </item>
+      <item row="5" column="0">
+       <property name="text">
+        <string>cha</string>
+       </property>
+      </item>
+      <item row="6" column="0">
+       <property name="text">
+        <string>int</string>
+       </property>
+      </item>
+      <item row="7" column="0">
+       <property name="text">
+        <string>zr</string>
+       </property>
+      </item>
+      <item row="8" column="0">
+       <property name="text">
+        <string>rzt</string>
+       </property>
+      </item>
+      <item row="9" column="0">
+       <property name="text">
+        <string>zr</string>
+       </property>
+      </item>
+      <item row="10" column="0">
+       <property name="text">
+        <string>rzt</string>
+       </property>
+      </item>
+      <item row="11" column="0">
+       <property name="text">
+        <string>rzt</string>
+       </property>
+      </item>
+      <item row="12" column="0">
+       <property name="text">
+        <string>int</string>
+       </property>
+      </item>
+      <item row="13" column="0">
+       <property name="text">
+        <string>zr</string>
+       </property>
+      </item>
+      <item row="14" column="0">
+       <property name="text">
+        <string>s</string>
+       </property>
+      </item>
+      <item row="15" column="0">
+       <property name="text">
+        <string>cha</string>
+       </property>
+      </item>
+      <item row="16" column="0">
+       <property name="text">
+        <string>rzt</string>
+       </property>
+      </item>
+      <item row="17" column="0">
+       <property name="text">
+        <string>rzt</string>
+       </property>
+      </item>
+      <item row="18" column="0">
+       <property name="text">
+        <string>cha</string>
+       </property>
+      </item>
+      <item row="19" column="0">
+       <property name="text">
+        <string>int</string>
+       </property>
+      </item>
+      <item row="20" column="0">
+       <property name="text">
+        <string>zr</string>
+       </property>
+      </item>
+      <item row="21" column="0">
+       <property name="text">
+        <string>int</string>
+       </property>
+      </item>
+      <item row="22" column="0">
+       <property name="text">
+        <string>s</string>
+       </property>
+      </item>
+      <item row="23" column="0">
+       <property name="text">
+        <string>zr</string>
+       </property>
+      </item>
+      <item row="24" column="0">
+       <property name="text">
+        <string>cha</string>
+       </property>
+      </item>
+      <item row="25" column="0">
+       <property name="text">
+        <string>int</string>
+       </property>
+      </item>
+      <item row="26" column="0">
+       <property name="text">
+        <string>rzt</string>
+       </property>
+      </item>
+      <item row="27" column="0">
+       <property name="text">
+        <string>zr</string>
+       </property>
+      </item>
+      <item row="28" column="0">
+       <property name="text">
+        <string>int</string>
+       </property>
+      </item>
+      <item row="29" column="0">
+       <property name="text">
+        <string>zr</string>
+       </property>
+      </item>
+      <item row="30" column="0">
+       <property name="text">
+        <string>int</string>
+       </property>
+      </item>
+      <item row="31" column="0">
+       <property name="text">
+        <string>int</string>
+       </property>
+      </item>
+      <item row="32" column="0">
+       <property name="text">
+        <string>int</string>
+       </property>
+      </item>
+      <item row="33" column="0">
+       <property name="text">
+        <string>int</string>
+       </property>
+      </item>
+      <item row="34" column="0">
+       <property name="text">
+        <string>int</string>
+       </property>
+      </item>
+      <item row="35" column="0">
+       <property name="text">
+        <string>int</string>
+       </property>
+      </item>
+      <item row="36" column="0">
+       <property name="text">
+        <string>s</string>
+       </property>
+      </item>
+      <item row="37" column="0">
+       <property name="text">
+        <string>rzt</string>
+       </property>
+      </item>
+      <item row="38" column="0">
+       <property name="text">
+        <string>rzt</string>
+       </property>
+      </item>
+      <item row="39" column="0">
+       <property name="text">
+        <string>cha</string>
+       </property>
+      </item>
+      <item row="40" column="0">
+       <property name="text">
+        <string>zr</string>
+       </property>
+      </item>
+      <item row="41" column="0">
+       <property name="text">
+        <string>cha</string>
+       </property>
+      </item>
+      <item row="42" column="0">
+       <property name="text">
+        <string>rzt</string>
+       </property>
+      </item>
+      <item row="43" column="0">
+       <property name="text">
+        <string>cha</string>
+       </property>
+      </item>
+      <item row="44" column="0">
+       <property name="text">
+        <string>cha</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QListWidget" name="listWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>50</y>
+        <width>171</width>
+        <height>401</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>Specjalna cecha</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QListWidget" name="listWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>710</x>
+        <y>50</y>
+        <width>171</width>
+        <height>401</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>Ekwipunek</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_5">
+     <attribute name="title">
+      <string>Towarzysze</string>
+     </attribute>
+    </widget>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>490</y>
+      <width>391</width>
+      <height>151</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>773</x>
+      <y>490</y>
+      <width>111</width>
+      <height>151</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_4">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>610</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_26">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>580</y>
+      <width>67</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Rzuty</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_12">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>500</y>
+      <width>99</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Poziom!</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>894</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionNew_Character"/>
+    <addaction name="actionLoad_Character"/>
+    <addaction name="actionSave_Character"/>
+   </widget>
+   <addaction name="menuFile"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionNew_Character">
+   <property name="text">
+    <string>New Character</string>
+   </property>
+  </action>
+  <action name="actionLoad_Character">
+   <property name="text">
+    <string>Load Character</string>
+   </property>
+  </action>
+  <action name="actionSave_Character">
+   <property name="text">
+    <string>Save Character</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

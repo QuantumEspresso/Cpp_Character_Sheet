@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>racemenu</class>
+ <widget class="QDialog" name="racemenu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>934</width>
+    <height>688</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QDialogButtonBox" name="buttonBox">
+   <property name="geometry">
+    <rect>
+     <x>-150</x>
+     <y>650</y>
+     <width>341</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>141</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Wybierz rasę postaci</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>71</y>
+     <width>261</width>
+     <height>401</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>261</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Człowiek biały</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Człowiek czarny</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Człowiek żółty</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Elf leśny</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Elf szary</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Elf mroczny</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Krasnolud</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Gnom</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Niziołek</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ork</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Jaszczuroludź: Argonianin</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Jaszczuroludź: Sahuagin</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Jaszczuroludź: Troglodyta</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sferotkięty: Aasimar</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sferotknięty: Diablę</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sferotknięty: Genasi ognia</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sferotknięty: Genasi powietrza</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sferotknięty: Genasi wody</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sferotknięty: Genasi ziemi</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sferotknięty: Półsmok</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Likantrop: Wilkołak</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Likantrop: Dzikołak</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Likantrop: Szczurołak</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Likantrop: Gnoll</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Likantrop: Tygrysołak</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Likantrop: Lisołak</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Likantrop: Niedźwiedziołak</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Nimfa</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Yuan-Ti</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Człowiek-Duch</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tengu</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Vanar</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="pic2">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>10</y>
+     <width>631</width>
+     <height>661</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>510</y>
+     <width>151</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>męszczyzna</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>kobieta</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>490</y>
+     <width>81</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Płeć</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>racemenu</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>racemenu</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
